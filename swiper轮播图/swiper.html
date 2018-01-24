@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="swiper.css"/>
+		<script src="swiper-3.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide box">
+					<img src="img/wheel-1.png" class="zl"/>
+					<img src="img/cl.png"  style="position:absolute; left:500px; z-index:15; top:350px;"/>
+					<img src="img/ph1.png"  style="position:absolute;" class="a"/>
+				</div>
+				<div class="swiper-slide" style="background: #F44544;">
+					<img src="img/ph1.png" style="position: absolute;left: 700px;" class="b"/>
+					<img src="img/cloud.png" style="position: absolute;top: 100px;" class="c"/>
+					<img src="img/map.png"/ style="position: absolute;left: 480px;top: 280px;">
+					<img src="img/nail.png"/ style="position: absolute;" class="d">
+				</div>
+				<div class="swiper-slide" style="background: #9D475E;">
+					<img src="img/fun.png" style="position: absolute;"/ class="e">
+					<img src="img/shop.png" style="position: absolute;z-index:99;"/ class="f">					
+					<img src="img/v-phone.png"/ style="position: absolute;left: 400px;top: 580px;">
+				</div>
+				<div class="swiper-slide" style="background: #32C69B;">
+					<img src="img/phone_1.png"/ style="position: absolute;left: 500px;top: 200px;" class="g">
+					<img src="img/phone_2.png"/ style="position: absolute;left:511px;top: 300px;z-index: 50;" >
+					<img src="img/ballon.png"/ style="position: absolute;left:650px;" class="h">
+					<img src="img/gift_1.png"/ style="position: absolute;top: 390px;" class="i">
+					<img src="img/gift_2.png"/ style="position: absolute;top: 450px;" class="j">
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var myswiper=new Swiper(".swiper-container",{
+			autoplay:5000,
+			pagination : '.swiper-pagination',
+			mousewheelControl : true,
+			direction:'vertical',
+			mousewheelForceToAxis: true,
+		})
+	</script>
+</html>

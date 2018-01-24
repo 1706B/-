@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.swiper-container,.swiper-wrapper,.swiper-slide{
+	width:100%;
+	height:650px;
+}
+.box{
+	margin: 0 auto;
+	background: #FED980;
+}
+.zl{
+	position: absolute;
+	top: 200px;	
+	left:450px;
+}
+@keyframes a{
+	0%{transform:translateX(700px) translateY(-506PX);}
+	50%{transform: translateX(700px) translateY(-206PX);}
+	100%{transform:translateX(700px) translateY(200px);}
+}
+.a{
+	animation: 3s a linear ;
+	animation-fill-mode:forwards;
+}
+@keyframes zl{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+.zl{
+	animation: 5s 3s zl linear infinite;
+}
+@keyframes b{
+	0%{	transform: translateY(-506PX)}
+	50%{transform: translateY(-506PX)}
+	100%{transform: translateY(-450PX)}
+}
+.b{
+	animation: 5s 5s b linear;
+	animation-fill-mode:forwards;
+}
+@keyframes c{
+	0%{transform: translateX(1500px)}
+	100%{transform: translateX(400px)}
+}
+.c{
+	animation: 4s 5s c linear;
+	animation-fill-mode:forwards;
+}
+@keyframes d{
+	0%{transform: translateX(800px) translateY(150px) }
+	100%{transform: translateX(800px) translateY(350px)}
+}
+.d{
+	animation: 4s 5s d linear;
+	animation-fill-mode:forwards;
+}
+@keyframes e{
+	0%{transform: translateX(500px) translateY(350px) }
+	100%{transform: translateX(500px) translateY(200px)}
+}
+.e{
+	animation: 4s 10s e linear;
+	animation-fill-mode:forwards;
+}
+@keyframes f{
+	0%{transform: translateX(500px) translateY(200px) }
+	100%{transform: translateX(500px) translateY(350px)}
+}
+.f{
+	animation: 4s 10s f linear;
+	animation-fill-mode:forwards;
+}
+@keyframes g{
+	0%{transform: rotateX(0deg) }
+	100%{transform: rotateZ(30deg)}
+}
+.g{
+	transform-origin:220px 105px;
+	animation: 4s 15s g linear ;
+	animation-fill-mode:forwards;
+}
+@keyframes h{
+	0%{transform: translateY(400px)}
+	100%{transform:translateY(50px)}
+}
+.h{
+	animation: 4s 15s h linear;
+	animation-fill-mode:forwards;
+}
+@keyframes i{
+	0%{transform:translateX(850px) }
+	100%{transform: translateX(550px)}
+}
+.i{
+	animation: 3s 15s i linear;
+	animation-fill-mode:forwards;
+}
+@keyframes j{
+	0%{transform:translateX(850px) }
+	100%{transform: translateX(950px)}
+}
+.j{
+	animation: 4s 15s j linear;
+	animation-fill-mode:forwards;
+}
+.swiper-pagination span{
+	background: #000000;
+}
